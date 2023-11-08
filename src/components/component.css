@@ -1,0 +1,372 @@
+/* .frame1{ */
+  /* height: 300px; */
+/* } */
+
+.frame2{
+  display: flex;
+ 
+  /* overflow-x: scroll; */
+  /* overflow-x: auto; */
+  gap: 15px;
+  /* padding: 30px; */
+  /* background-color: #00ff7b; */
+
+}
+
+.frame3{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 0px;
+  padding: 5px 0;
+  background-color: rgba(255, 255, 255, 0.152);
+  gap: 5px;
+
+}
+
+.title2{
+  color: white;
+  padding-left: 60px;
+  font-size: 2em;
+}
+
+.card{
+  /* width: 500px; */
+  /* max-width: 70vw; */
+  height: 100%;
+  /* background-color: aqua; */
+  padding: 25px 20px;
+  display: flex;
+  gap: 20px;
+  /* background: #C6ECC6; */
+  background-color: rgba(245, 222, 179, 0.393);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin: 0 0 5px 0;
+}
+
+.date{
+  /* display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: white; */
+  /* border-radius: ; */
+  /* Frame 3 */
+
+/* Auto layout */
+/* background-color: #00ff7b; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 90px;
+height: 95px;
+
+background: rgba(255, 255, 255, 0.69);
+box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.09);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+}
+
+.month{
+  width: 23px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.date-val{
+  /* 5 */
+
+width: 24px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #606060;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.body{
+  /* background-color: blueviolet; */
+  /* height: fit-content; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* align-items: start; */
+  justify-content: flex-start;
+  
+
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: azure; */
+  /* max-width: 65vw; */
+}
+
+.value{
+  /* flex: 1; */
+  max-width: 40vw;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.613);
+
+  border: 0px solid #ccc; /* Border color and style */
+  border-radius: 4px; /* Rounded corners for a softer look */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  font-size: 24px; 
+
+}
+
+.value:focus{
+  outline: none; /* Remove the default focus outline */
+ 
+    /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  */
+}
+
+.time{
+  /* 8:30 PM */
+
+/* margin: 0 auto;
+width: 80px;
+height: 26px; */
+width: 85px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #737373;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.desc{
+  display: flex;
+  /* background-color: azure; */
+  flex: 1;
+}
+
+.des-field{
+  flex: 1;
+  color: rgba(0, 0, 0, 0.498);
+  border: 0px solid #ccc;
+  border-radius: 4px; /* Rounded corners for a softer look */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  font-size: 20px;
+  background-color: transparent;
+
+}
+
+.des-field:focus{
+  outline: none; /* Remove the default focus outline */
+    border-color: #00ff7b; /* Change the border color on focus */
+    /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  */
+}
+
+.action{
+  /* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+flex: 1;
+
+
+
+
+}
+
+
+
+.btn{
+  /* Frame 3 */
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 11px 15px;
+gap: 8px;
+
+/* width: 15px;
+height: 11px; */
+
+cursor: pointer;
+
+align-items: center;
+padding: 11px 15px;
+background: #FFFFFF;
+box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.09);
+border-radius: 9px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: rgba(0, 0, 0, 0.417); */
+  border-radius: 10px;
+  width: 70px;
+  height: 98vh;
+  align-items: center;
+  margin: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icons{
+  /* background-color: aqua; */
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-size: contain;
+  /* background-color: rgba(255, 255, 255, 0.316); */
+  border-radius: 10px;
+  border: solid white 2px;
+  background-image: url('https://www.svgrepo.com/show/530438/ddos-protection.svg');
+}
+
+.container{
+  /* background-color: rgba(0, 0, 0, 0.417); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container {
+  scrollbar-width: thin;
+  -webkit-scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  -webkit-scrollbar-color: transparent transparent;
+}
+
+/* Optional: To style the track and handle */
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* CSS */
+.button-2 {
+  
+  background-color: rgba(54, 32, 179, 0.118);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  /* text-align: center; */
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
